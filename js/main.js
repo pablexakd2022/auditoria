@@ -78,3 +78,10 @@ $(window).on('load', function() {
 
 })(jQuery);
 
+  window._mfq = window._mfq || [];
+  (function() {
+    var mf = document.createElement("script");
+    mf.type = "text/javascript"; mf.defer = true;
+    mf.src = "//cdn.mouseflow.com/projects/4cf6b87b-a9d8-48f4-a373-ea82e0a76a0f.js";
+    document.getElementsByTagName("head")[0].appendChild(mf);
+  })();
