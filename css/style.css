@@ -28,6 +28,7 @@ h6 {
 	color: #131313;
 }
 
+
 h1 {
 	font-size: 70px;
 }
@@ -325,7 +326,7 @@ ol {
 }
 
 .hero-slider .hs-text h2 {
-	color: #fff;
+	text-shadow: 1px 1px #000000;
 	font-weight: 400;
 	font-size: 60px;
 	margin-bottom: 30px;
@@ -339,7 +340,7 @@ ol {
 }
 
 .hero-slider .hs-text p {
-	color: #fff;
+	text-shadow: 1px 1px #000000;
 	margin-bottom: 30px;
 	position: relative;
 	position: relative;
@@ -1113,6 +1114,9 @@ ol {
 
 .review-dark .review-item .review-text p {
 	color: #b5b5b5;
+}
+.review-text h5 {
+	color: white;
 }
 
 .review-section.review-dark {
